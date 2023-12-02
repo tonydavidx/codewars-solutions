@@ -6,3 +6,6 @@ def square_digits(num):
         n = n * n
         digits += str(n)
     return int(digits)
+
+
+print(square_digits(9119))
